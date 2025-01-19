@@ -4,8 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <!-- Creacion del navbar -->
+    <header class="header">
+        <a href="#home" class="logo">Web
+        <span>Designer</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#services">Services</a>
+            <a href="#contat">Contact</a>
+        </nav>
+    </header>
+    <!-- Creacion del home -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Mario</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ea accusantium molestias odio, dolorum illum tenetur nulla provident natus vero laborum reiciendis aliquid? Inventore, in obcaecati dolorum placeat nam debitis?</p>
+            <div class="social-icon">
+                <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="#"><i class='bx bxl-github' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="imgs/mario.JPG" alt="">
+        </div>
+    </section>
+     <!-- Linea del tiempo -->
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <!-- item de linea del tiempo-->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">
+                        2021
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Universidad</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia dolorem sunt, ea soluta sed unde? Facere velit sit natus alias saepe commodi, perferendis atque in beatae debitis, fugit suscipit ipsum!</p>
+                    </div>
+            </div> <!-- final del item -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">
+                        2022
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Maestria</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia dolorem sunt, ea soluta sed unde? Facere velit sit natus alias saepe commodi, perferendis atque in beatae debitis, fugit suscipit ipsum!</p>
+                    </div>
+            </div> <!-- final del item -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">
+                        2023
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Especialidad</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia dolorem sunt, ea soluta sed unde? Facere velit sit natus alias saepe commodi, perferendis atque in beatae debitis, fugit suscipit ipsum!</p>
+                    </div>
+            </div> <!-- final del item -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">
+                        2024
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Trabajo</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia dolorem sunt, ea soluta sed unde? Facere velit sit natus alias saepe commodi, perferendis atque in beatae debitis, fugit suscipit ipsum!</p>
+                    </div>
+            </div> <!-- final del item -->
+        </div>
+    </section>
 </body>
-</html>
+</html> 
