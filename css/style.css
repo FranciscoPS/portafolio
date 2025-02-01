@@ -148,6 +148,7 @@ span {
     font-weight: 500;
     line-height: 1.8;
     max-width: 1000px;
+    margin-top: 15px;
 }
 
 .social-icon a {
@@ -391,6 +392,16 @@ span {
     font-size: 16px;
     font-weight: 300;
     line-height: 22px;
+}
+
+.timeline-img {
+    background-color: white;
+    width: 100%; /* Ajusta el tamaño de la imagen al 100% del contenedor */
+    max-width: 400px; /* Evita que la imagen se agrande demasiado */
+    display: block; /* Asegura que no haya margen inesperado */
+    margin: 30px auto; /* Centra la imagen horizontalmente */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Efecto sutil de sombra */
 }
 
 /* css para el scrollbar */
