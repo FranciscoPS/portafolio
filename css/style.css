@@ -440,10 +440,11 @@ span {
 
 .service-box {
     background-color: var(--main-color);
-    height: 300px;
+    height: 370px;
     border-radius: 3rem;
     border: 5px solid transparent;
     transition: 0.4 ease-in-out;
+    cursor: pointer;
 }
 
 .service-box:hover {
@@ -466,7 +467,8 @@ span {
 .service-info h4 {
     font-size: 3rem;
     font-weight: 800;
-    line-height: 2;
+    line-height: 1.2;
+    margin-bottom: 20px;
 }
 
 .service-info p {
@@ -496,7 +498,7 @@ span {
     color: var(--text-color);
 }
 .contact-container p {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     line-height: 1.5;
     max-width: 600px;
